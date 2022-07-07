@@ -1,0 +1,17 @@
+.header img{
+    width: 90;
+    max-width: 375px;
+}
+.header p{
+    color: white;
+    max-width: 475px;
+    font-weight: 400;
+}
+.mobile-img1{
+    position: relative;
+    z-index: 2;
+}
+.mobile-img2{
+    position: relative;
+    display: none;
+}

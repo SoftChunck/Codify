@@ -1,0 +1,26 @@
+@media (max-width:991px) {
+  .two-h-mob img{
+    width: 280px;
+  }
+}
+@media (max-width: 767px) {
+  .three-mob img{
+    width: 200px;
+  }
+  .three-mob img.iphone-mid{
+    width: 250px;
+  }
+  .two-h-mob img{
+    width: 230px;
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .three-mob img{
+    width: 150px;
+  }
+  .three-mob img.iphone-mid{
+    width: 200px;
+  }
+}
