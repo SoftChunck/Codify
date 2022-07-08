@@ -15,7 +15,7 @@ const WhatIsCodify = () => {
         <section className='WhatIsCodify my-5'>
             <div className='container text-center justify-content-center d-flex flex-column align-items-center'>
                     <p className='row subhead'>the nische</p>
-                    <h2 className='h1 row'>What is Codify?</h2>                    
+                    <h1 className='row'>What is Codify?</h1>                    
                     <p className='fs-4 row mb-5 col-8'>Codify started its journey in 2019 with remotely working employees. Soon it became one of the trusted IT company for its quality work!</p>
                     <div className='row mt-5'>
                     {

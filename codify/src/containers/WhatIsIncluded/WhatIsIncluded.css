@@ -1,0 +1,12 @@
+.iphone-img-include1{
+    width: 80%;
+    height: auto;
+    background-color: transparent;
+    z-index: 2;
+}
+.iphone-img-include2{
+    width: 80%;
+    height: auto;
+    position: relative;
+    top:-9rem;
+}
