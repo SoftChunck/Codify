@@ -17,19 +17,17 @@ const OurTeam = () => {
         <div>
             <h1 className='text-center'>Our Team</h1>
             <div className='container'>
-                <div className='row'>
+                <div className='row justify-content-center my-5 py-5'>
                     <TeamMembers data={TeamMember[0]}></TeamMembers>
                 </div>
-                <div className='row'>
+                <div className='row justify-content-center my-5 py-5'>
                     <TeamMembers data={TeamMember[1]}></TeamMembers>
                     <TeamMembers data={TeamMember[2]}></TeamMembers>
                 </div>
-                <div className='row'>
+                <div className='row justify-content-center my-5 py-5'>
                     <TeamMembers data={TeamMember[3]}></TeamMembers>
                     <TeamMembers data={TeamMember[4]}></TeamMembers>
-                    <TeamMembers data={TeamMember[5]}></TeamMembers>
-                </div>
-                <div className='row'>
+                    <TeamMembers data={TeamMember[5]}></TeamMembers>                    
                     <TeamMembers data={TeamMember[6]}></TeamMembers>
                     <TeamMembers data={TeamMember[7]}></TeamMembers>
                 </div>

@@ -1,0 +1,28 @@
+.input-filed , .textarea-filed{
+    width: 100%;
+    border: 1px solid #C7C7C7;
+    line-height: 20px;
+    background: rgba(255,255,255,0.7);
+    outline: none;
+    color: rgb(241, 197, 197);
+}
+.contact-us-section{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url('../../../public/assets/images/background-contact.webp');
+    background-position: center;
+    background-size: cover;
+}
+.contact-us-section pre{
+    color:#ADB5BD;
+}
+.content-contact{
+    background-color: transparent;
+}
+.content-contact p{
+    background-color: transparent;
+}
+.content-contact h1{
+    background-color: transparent;
+}
+.content-contact form{
+    background-color: transparent;
+}

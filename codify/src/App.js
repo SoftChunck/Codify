@@ -14,6 +14,7 @@ function App() {
         <WhyChooseCodify></WhyChooseCodify>
         <WhatIsIncluded></WhatIsIncluded>
         <OurTeam></OurTeam>
+        <ContactUs></ContactUs>
       </div>
     </div>
   );
