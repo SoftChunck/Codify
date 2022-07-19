@@ -5,6 +5,14 @@
     color: black;
 }
 .iphone-img{
-    width: 80%;
+    max-width: 300px;
     height: auto;
+}
+.iphone-img-2{
+    max-width: 300px;
+    height: auto;
+    position: relative;
+    transform: translateX(200px);
+    background: transparent;
+    z-index: 5;
 }

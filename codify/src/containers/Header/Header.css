@@ -10,7 +10,7 @@
 .mobile-img1{
     height: auto;
     position: relative;
-    transform: scale(85%,85%) translateX(65%) translateY(8%);
+    transform: scale(75%,75%) translateX(85%) translateY(3.5%);
     background:transparent;
     z-index: -4;
 }
@@ -18,7 +18,7 @@
     width: 80%;
     height: auto;
     position: relative;    
-    transform:  scale(85%,85%) translateX(-65%) translateY(8%);
+    transform:  scale(75%,75%) translateX(-85%) translateY(3.5%);
     z-index: -4;
 }
 .mobile-img3{

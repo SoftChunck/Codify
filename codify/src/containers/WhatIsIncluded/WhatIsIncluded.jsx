@@ -25,13 +25,14 @@ const WhatIsIncluded = () => {
                     <p className='row subhead'>the package</p>
                     <h1 className='row'>What is Included?</h1>                    
                     <p className='fs-4 row mb-5 col-8'>We work on different latest techonologies in Web-Developement and Mobile applications development.</p>
-                    <div className='row mt-5 justify-content-center'>
-                    {
-                        services.map((service)=>(
-                            <Services service={service} />  
-                        ))
-                    }
-                    </div>  
+                    <div className='row my-5 justify-content-center'> 
+                        <div className='element' data-aos="slide-up"><Services service={services[0]}/></div>
+                        <div className='element'><Services service={services[1]}/></div>
+                        <div className='element' data-aos="slide-up"><Services service={services[2]}/></div>
+                        <div className='element'><Services service={services[3]}/></div>
+                        <div className='element' data-aos="slide-up"><Services service={services[4]}/></div>
+                        <div className='element'><Services service={services[5]}/></div>
+                    </div>     
                     <div className='container-md d-flex flex-row align-items-center justify-content-center row'>
                         <div className='d-flex flex-column text-end col-md-3 col-12'>
                             <Included_desc data = {IncludedDesc[0]}></Included_desc>
@@ -40,7 +41,7 @@ const WhatIsIncluded = () => {
                         </div>
                         <div className='d-flex flex-column align-items-center justify-content-center col-md-6 col-12'>
                             <img src='assets/images/iphone-11.webp' className='iphone-img-include1' />
-                            <img src='assets/images/iphone-12.webp' className='iphone-img-include2' />
+                            <img src='assets/images/iphone-12.webp' className='iphone-img-include2' data-aos="slide-up" />
                         </div>
                         <div className='d-flex flex-column text-start col-md-3 col-12'>
                             <Included_desc data = {IncludedDesc[3]}></Included_desc>

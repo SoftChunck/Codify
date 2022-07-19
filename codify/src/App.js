@@ -3,9 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
-import {Navbar,Services,Included_desc,TeamMembers,CodifyDescription} from './components';
 import {ContactUs,Footer,Header,OurServices,OurTeam,WhatIsCodify,WhatIsIncluded,WhyChooseCodify} from './containers';
-
 AOS.init();
 function App() {
   return (

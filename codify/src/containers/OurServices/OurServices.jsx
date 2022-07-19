@@ -21,12 +21,18 @@ const OurServices = () => {
                     <p className='row subhead'>the package</p>
                     <h1 className='row'>Our Services</h1>                    
                     <p className='fs-4 row mb-5 col-8'>We work on different latest techonologies in Web-Developement and Mobile applications development.</p>
-                    <div className='row mt-5 justify-content-center'>
-                    {
-                        services.map((service)=>(
-                            <Services service={service} />  
-                        ))
-                    }
+                    
+                    <div className='row mt-5 justify-content-center'> 
+                        <div className='element' data-aos="slide-up"><Services service={services[0]}/></div>
+                        <div className='element'><Services service={services[1]}/></div>
+                        <div className='element' data-aos="slide-up"><Services service={services[2]}/></div>
+                        <div className='element'><Services service={services[3]}/></div>
+                        <div className='element' data-aos="slide-up"><Services service={services[4]}/></div>
+                        <div className='element'><Services service={services[5]}/></div>
+                        <div className='element' data-aos="slide-up"><Services service={services[6]}/></div>
+                        <div className='element'><Services service={services[7]}/></div>
+                        <div className='element' data-aos="slide-up"><Services service={services[8]}/></div>
+                        <div className='element' data-aos="slide-up"><Services service={services[9]}/></div>
                     </div>          
             </div>
         </section>
