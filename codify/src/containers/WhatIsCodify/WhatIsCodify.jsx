@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import {motion} from 'framer-motion';
 import { CodifyDescription } from '../../components';
 import './WhatIsCodify.css';
 const WhatIsCodify = () => {
@@ -17,13 +18,16 @@ const WhatIsCodify = () => {
                     <p className='row subhead'>the nische</p>
                     <h1 className='row'>What is Codify?</h1>                    
                     <p className='fs-4 row mb-5 col-8'>Codify started its journey in 2019 with remotely working employees. Soon it became one of the trusted IT company for its quality work!</p>
-                    <div className='row mt-5'>
-                    {
-                        codify_des.map((data)=>(
-                            <CodifyDescription data ={data} />  
-                        ))
-                    }
-                    </div>          
+                    <div className='row mt-5' data-aos="slide-up">
+                        <CodifyDescription data ={codify_des[0] } />
+                        <CodifyDescription data ={codify_des[1]} />
+                        <CodifyDescription data ={codify_des[2]} />
+                    </div> 
+                    <div className='row mt-5' data-aos="slide-up">
+                        <CodifyDescription data ={codify_des[3]} />
+                        <CodifyDescription data ={codify_des[4]} />
+                        <CodifyDescription data ={codify_des[5]} />
+                    </div>
             </div>
         </section>
      );

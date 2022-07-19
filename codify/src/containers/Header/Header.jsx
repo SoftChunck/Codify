@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
     React.useEffect(()=>{
         let s = 85;
-        let tx = 75;
+        let tx = 65;
         let ty = 8;
         let reacttop = 0;
         window.addEventListener('scroll',()=>{
@@ -13,7 +13,7 @@ const Header = () => {
           let image_2 = document.querySelector('.mobile-img2');
           let react_pos = images_header.getBoundingClientRect();
           console.log(react_pos.top)
-          if((reacttop=0 || reacttop > react_pos.top) && tx<80 && ty>0)
+          if(reacttop > react_pos.top && tx<80 && ty>0 && tx>65 && ty>8)
           {
             ty = ty-0.1;
             tx = tx-0.3;
