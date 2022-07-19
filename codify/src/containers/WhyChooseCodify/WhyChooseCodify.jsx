@@ -13,7 +13,7 @@ const WhyChooseCodify = () => {
                 <button className='btn bg-warning btn-lg watch-btn'>Watch Our Video<FontAwesomeIcon icon={faPlay} className='ms-3 bg-warning play-icon' /></button>
             </div>
             <div className=''>
-                <img src='assets/images/iphone-3.webp' className='iphone-img-2' data-aos="slide-left" data-aos-offset="100px"/>
+                <img src='assets/images/iphone-3.webp' className='iphone-img-2' data-aos="slide-left"/>
                 <img src='assets/images/iphone-2.webp' className='iphone-img' />
             </div>
         </div>

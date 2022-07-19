@@ -10,19 +10,20 @@
 .mobile-img1{
     height: auto;
     position: relative;
-    transform: scale(75%,75%) translateX(85%) translateY(3.5%);
+    transform: scale(75%,75%) translateX(80%) translateY(8%);
     background:transparent;
-    z-index: -4;
+    transition: transform 1s;
 }
 .mobile-img2{
     width: 80%;
     height: auto;
     position: relative;    
-    transform:  scale(75%,75%) translateX(-85%) translateY(3.5%);
-    z-index: -4;
+    transform:  scale(75%,75%) translateX(-80%) translateY(8%);
+    transition: transform 1s;
 }
 .mobile-img3{
     background: transparent;
+    z-index: 2;
 }
 .header-imgs{
     transform: translate3d(0,61.9px,0);
