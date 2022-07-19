@@ -8,10 +8,22 @@
     font-weight: 400;
 }
 .mobile-img1{
+    height: auto;
     position: relative;
-    z-index: 2;
+    transform: scale(85%,85%) translateX(75%) translateY(8%);
+    background:transparent;
+    z-index: -4;
 }
 .mobile-img2{
-    position: relative;
-    display: none;
+    width: 80%;
+    height: auto;
+    position: relative;    
+    transform:  scale(85%,85%) translateX(-75%) translateY(8%);
+    z-index: -4;
+}
+.mobile-img3{
+    background: transparent;
+}
+.header-imgs{
+    transform: translate3d(0,61.9px,0);
 }

@@ -32,17 +32,17 @@ const WhatIsIncluded = () => {
                         ))
                     }
                     </div>  
-                    <div className='container-md d-flex flex-row align-items-center justify-content-center'>
-                        <div className='d-flex flex-column text-end'>
+                    <div className='container-md d-flex flex-row align-items-center justify-content-center row'>
+                        <div className='d-flex flex-column text-end col-md-3 col-12'>
                             <Included_desc data = {IncludedDesc[0]}></Included_desc>
                             <Included_desc data = {IncludedDesc[1]}></Included_desc>
                             <Included_desc data = {IncludedDesc[2]}></Included_desc>
                         </div>
-                        <div className='d-flex flex-column align-items-center justify-content-center'>
+                        <div className='d-flex flex-column align-items-center justify-content-center col-md-6 col-12'>
                             <img src='assets/images/iphone-11.webp' className='iphone-img-include1' />
                             <img src='assets/images/iphone-12.webp' className='iphone-img-include2' />
                         </div>
-                        <div className='d-flex flex-column text-start'>
+                        <div className='d-flex flex-column text-start col-md-3 col-12'>
                             <Included_desc data = {IncludedDesc[3]}></Included_desc>
                             <Included_desc data = {IncludedDesc[4]}></Included_desc>
                             <Included_desc data = {IncludedDesc[5]}></Included_desc>
