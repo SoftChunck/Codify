@@ -26,24 +26,24 @@ const WhatIsIncluded = () => {
                     <h1 className='row'>What is Included?</h1>                    
                     <p className='fs-4 row mb-5 col-8'>We work on different latest techonologies in Web-Developement and Mobile applications development.</p>
                     <div className='row my-5 justify-content-center'> 
-                        <div className='element' data-aos="slide-up"><Services service={services[0]}/></div>
-                        <div className='element'><Services service={services[1]}/></div>
-                        <div className='element' data-aos="slide-up"><Services service={services[2]}/></div>
-                        <div className='element'><Services service={services[3]}/></div>
-                        <div className='element' data-aos="slide-up"><Services service={services[4]}/></div>
-                        <div className='element'><Services service={services[5]}/></div>
+                        <Services service={services[0]}/>
+                        <Services service={services[1]}/>
+                        <Services service={services[2]}/>
+                        <Services service={services[3]}/>
+                        <Services service={services[4]}/>
+                        <Services service={services[5]}/>
                     </div>     
                     <div className='container-md d-flex flex-row align-items-center justify-content-center row'>
-                        <div className='d-flex flex-column text-end col-md-3 col-12'>
+                        <div className='d-flex flex-column text-end col-md-3'>
                             <Included_desc data = {IncludedDesc[0]}></Included_desc>
                             <Included_desc data = {IncludedDesc[1]}></Included_desc>
                             <Included_desc data = {IncludedDesc[2]}></Included_desc>
                         </div>
-                        <div className='d-flex flex-column align-items-center justify-content-center col-md-6 col-12'>
-                            <img src='assets/images/iphone-11.webp' className='iphone-img-include1' />
-                            <img src='assets/images/iphone-12.webp' className='iphone-img-include2' data-aos="slide-up" />
+                        <div className='col-md-6 bg-transparent'>
+                            <img src='assets/images/iphone-11.webp' className='bg-transparent iphone-img-include1 col-10' />
+                            <img src='assets/images/iphone-12.webp' className='bg-transparent iphone-img-include2 col-10' data-aos="slide-up" />
                         </div>
-                        <div className='d-flex flex-column text-start col-md-3 col-12'>
+                        <div className='d-flex flex-column text-start col-md-3's>
                             <Included_desc data = {IncludedDesc[3]}></Included_desc>
                             <Included_desc data = {IncludedDesc[4]}></Included_desc>
                             <Included_desc data = {IncludedDesc[5]}></Included_desc>

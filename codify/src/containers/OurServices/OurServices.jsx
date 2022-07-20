@@ -16,23 +16,23 @@ const OurServices = () => {
         {imagePath:'assets/images/icons/monitor.png',heading:'Hosting',body:'Hosting to your websites on cheap rates.'}
     ])
     return ( 
-        <section className='Services my-5 p-5'>
-            <div className='container text-center justify-content-center d-flex flex-column align-items-center'>
+        <section className='Services my-5 p-2'>
+            <div className='container-lg text-center justify-content-center d-flex flex-column align-items-center'>
                     <p className='row subhead'>the package</p>
                     <h1 className='row'>Our Services</h1>                    
-                    <p className='fs-4 row mb-5 col-8'>We work on different latest techonologies in Web-Developement and Mobile applications development.</p>
+                    <p className='fs-5 row mb-5 col-md-8'>We work on different latest techonologies in Web-Developement and Mobile applications development.</p>
                     
                     <div className='row mt-5 justify-content-center'> 
-                        <div className='element' data-aos="slide-up"><Services service={services[0]}/></div>
-                        <div className='element'><Services service={services[1]}/></div>
-                        <div className='element' data-aos="slide-up"><Services service={services[2]}/></div>
-                        <div className='element'><Services service={services[3]}/></div>
-                        <div className='element' data-aos="slide-up"><Services service={services[4]}/></div>
-                        <div className='element'><Services service={services[5]}/></div>
-                        <div className='element' data-aos="slide-up"><Services service={services[6]}/></div>
-                        <div className='element'><Services service={services[7]}/></div>
-                        <div className='element' data-aos="slide-up"><Services service={services[8]}/></div>
-                        <div className='element' data-aos="slide-up"><Services service={services[9]}/></div>
+                        <Services service={services[0]}/>
+                        <Services service={services[1]}/>
+                        <Services service={services[2]}/>
+                        <Services service={services[3]}/>
+                        <Services service={services[4]}/>
+                        <Services service={services[5]}/>
+                        <Services service={services[6]}/>
+                        <Services service={services[7]}/>
+                        <Services service={services[8]}/>
+                        <Services service={services[9]}/>
                     </div>          
             </div>
         </section>

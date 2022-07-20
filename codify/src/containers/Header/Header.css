@@ -7,21 +7,19 @@
     max-width: 475px;
     font-weight: 400;
 }
+.img-contianer{
+    width:100%
+}
 .mobile-img1{
-    height: auto;
     position: relative;
-    transform: scale(75%,75%) translateX(80%) translateY(8%);
-    background:transparent;
-    transition: transform 1s;
+    transform: scale(85%,85%) translateX(100%) translateY(8%);
+    transition: transform 1s ;
 }
-.mobile-img2{
-    width: 80%;
-    height: auto;
+.mobile-img2{  
     position: relative;    
-    transform:  scale(75%,75%) translateX(-80%) translateY(8%);
-    transition: transform 1s;
+    transform:  scale(85%,85%) translateX(-100%) translateY(8%);
 }
-.mobile-img3{
+.mobile-img3{   
     background: transparent;
     z-index: 2;
 }

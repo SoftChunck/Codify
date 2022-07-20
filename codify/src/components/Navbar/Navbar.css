@@ -3,6 +3,9 @@
     justify-content: end;
     align-items: center;
 }
+.navbar-toggler{
+    border-color:white;
+}
 .nav-logo{
     width: 150px;
     height: auto;

@@ -5,16 +5,16 @@ import './WhyChooseCodify.css';
 
 const WhyChooseCodify = () => {
     return ( 
-        <div className='container p-5 d-flex flex-row justify-content-between'>
-            <div className=''>
+        <div className='ms-5 p-5 row justify-content-between g-4'>
+            <div className='col-md-6'>
                 <p>the fact</p>
-                <h1 className='display-3'>Why Choose Codify?</h1>
+                <h1 className='display-4'>Why Choose Codify?</h1>
                 <h3 className='fs-5'>Why Choose Us!</h3>
-                <button className='btn bg-warning btn-lg watch-btn'>Watch Our Video<FontAwesomeIcon icon={faPlay} className='ms-3 bg-warning play-icon' /></button>
+                <button className='btn bg-warning btn-lg col-md-4 btn-watch fs-6'>Watch Our Video <FontAwesomeIcon icon={faPlay}></FontAwesomeIcon></button>
             </div>
-            <div className=''>
-                <img src='assets/images/iphone-3.webp' className='iphone-img-2' data-aos="slide-left"/>
-                <img src='assets/images/iphone-2.webp' className='iphone-img' />
+            <div className='col-md-6'>
+                <img src='assets/images/iphone-3.webp' className='iphone-img-2 col-5' data-aos="slide-left"/>
+                <img src='assets/images/iphone-2.webp' className='iphone-img col-5' />
             </div>
         </div>
      );
