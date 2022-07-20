@@ -17,7 +17,7 @@ const WhatIsCodify = () => {
             <div className='container text-center justify-content-center d-flex flex-column align-items-center'>
                     <p className='row subhead'>the nische</p>
                     <h1 className='row'>What is Codify?</h1>                    
-                    <p className='fs-4 row mb-5 col-8'>Codify started its journey in 2019 with remotely working employees. Soon it became one of the trusted IT company for its quality work!</p>
+                    <p className='fs-5 row mb-5 col-md-8'>Codify started its journey in 2019 with remotely working employees. Soon it became one of the trusted IT company for its quality work!</p>
                     <div className='row mt-5 justify-content-center'>
                         <CodifyDescription data ={codify_des[0] } />
                         <CodifyDescription data ={codify_des[1]} />

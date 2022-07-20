@@ -40,7 +40,7 @@ const Header = () => {
                 <div className='container d-flex flex-column text-center align-items-center mb-5'>
                     <img src='assets/images/logo.webp' className='col-9'></img>
                     <p className='fs-5 row col-8 text-center mb-3'>Get your Bussiness Ideas implemented in latest technologies!</p>
-                    <div className='row justify-content-center header-imgs'>                                        
+                    <div className='row justify-content-center header-imgs mb-5'>                                        
                         <img src='assets/images/iphone-3.webp' className='col-4 mobile-img1' data-aos="shift-left"></img>
                         <img src='assets/images/iphone-2.webp' className='col-4 mobile-img3'></img>
                         <img src='assets/images/iphone-3.webp' className='col-4 mobile-img2' data-aos="shift-right"></img>

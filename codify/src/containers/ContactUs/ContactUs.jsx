@@ -8,7 +8,7 @@ const ContactUs = () => {
            <div className='content-contact container mx-5 p-5'>
                 <p className='m-0 p-0'>contact now</p>
                 <h1 className='p-0 mx-0 mb-5 mt-2'>Hurry up, get your quotation!</h1>
-                <form className='col-8'>
+                <form className='col-lg-8'>
                     <input type="text" className='input-filed p-3 mx-0 my-2' placeholder='Name' />
                     <input type="text" className='input-filed p-3 mx-0 my-2' placeholder='Email' />
                     <input type="text" className='input-filed p-3 mx-0 my-2' placeholder='Cell.No' />
