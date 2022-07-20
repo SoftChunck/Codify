@@ -39,9 +39,9 @@ const WhatIsIncluded = () => {
                             <Included_desc data = {IncludedDesc[1]}></Included_desc>
                             <Included_desc data = {IncludedDesc[2]}></Included_desc>
                         </div>
-                        <div className='col-md-6 bg-transparent'>
+                        <div className='col-md-6 bg-transparent justify-content-center align-items-center d-flex flex-column'>
                             <img src='assets/images/iphone-11.webp' className='bg-transparent iphone-img-include1 col-10' />
-                            <img src='assets/images/iphone-12.webp' className='bg-transparent iphone-img-include2 col-10' data-aos="slide-up" />
+                            <img src='assets/images/iphone-12.webp' className='bg-transparent iphone-img-include2 col-10' data-aos="slide-up" data-aos-duration="2000"/>
                         </div>
                         <div className='d-flex flex-column text-start col-md-3's>
                             <Included_desc data = {IncludedDesc[3]}></Included_desc>

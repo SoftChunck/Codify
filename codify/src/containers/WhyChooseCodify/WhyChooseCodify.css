@@ -1,15 +1,18 @@
 .play-icon{
     color: black;
 }
-.iphone-img{
+.iphone-img-1{
     max-width: 300px;
     height: auto;
+    position: relative;
+    z-index: 1;
 }
 .iphone-img-2{
     max-width: 300px;
     height: auto;
     position: relative;
-    transform: translateX(200px);
     background: transparent;
+    transform: translateX(80%);
+    background: transparents;
     z-index: 5;
 }
