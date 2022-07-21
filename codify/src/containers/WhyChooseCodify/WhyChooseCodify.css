@@ -11,7 +11,7 @@
     max-width: 300px;
     height: auto;
     position: relative;
-    background: transparent;
+    background-color: transparent;
     transform: translateX(80%);
     background: transparents;
     z-index: 5;

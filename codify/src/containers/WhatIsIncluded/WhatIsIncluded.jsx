@@ -21,7 +21,7 @@ const WhatIsIncluded = () => {
     ]);
     return ( 
         <section className='Services my-5 p-5'>
-            <div className='container text-center justify-content-center d-flex flex-column align-items-center'>
+            <div className='container-md text-center justify-content-center d-flex flex-column align-items-center'>
                     <p className='row subhead'>the package</p>
                     <h1 className='row'>What is Included?</h1>                    
                     <p className='fs-4 row mb-5 col-8'>We work on different latest techonologies in Web-Developement and Mobile applications development.</p>
